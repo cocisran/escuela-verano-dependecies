@@ -22,6 +22,7 @@ sudo apt update && sudo apt install -y \
 sudo apt-get install -y libasio-dev
 sudo apt install gcc g++ cmake libacl1-dev libncurses5-dev pkg-config
 sudo apt-get install libtinyxml2-dev
+pip install lark-parser
 
 
 sudo apt install -y \
