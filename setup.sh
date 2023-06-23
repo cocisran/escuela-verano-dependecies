@@ -14,6 +14,11 @@ sudo apt update && sudo apt install -y \
   python3-pytest-cov \
   ros-dev-tools
 
+sudo apt-get install -y libasio-dev
+sudo apt install gcc g++ cmake libacl1-dev libncurses5-dev pkg-config
+sudo apt-get install libtinyxml2-dev
+
+
 sudo apt install -y \
    python3-flake8-blind-except \
    python3-flake8-builtins \
